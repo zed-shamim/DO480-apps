@@ -1,0 +1,11 @@
+kind: Kustomization 
+
+bases: 
+  - ../../base 
+
+patches: 
+  - target: 
+      kind: Route 
+      name: 
+    path: myroute.yaml 
+
